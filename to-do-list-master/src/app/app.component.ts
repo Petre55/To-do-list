@@ -2,13 +2,15 @@ import { Component } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { Item } from "./item";
 import { ItemComponent } from "./item/item.component";
+import { AppModule } from "./app.module";
+import { bootstrapApplication } from "@angular/platform-browser";
 
 @Component({
   standalone: true,
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  imports: [CommonModule, ItemComponent],
+  imports: [CommonModule, ItemComponent, AppModule],
 
 })
 export class AppComponent {
@@ -45,3 +47,4 @@ export class AppComponent {
   }
 
 }
+bootstrapApplication(AppComponent)
