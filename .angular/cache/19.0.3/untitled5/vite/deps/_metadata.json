@@ -1,40 +1,58 @@
 {
-  "hash": "7b5a4c12",
-  "configHash": "230ca0aa",
-  "lockfileHash": "4bfefb46",
-  "browserHash": "992ce209",
+  "hash": "0de059fa",
+  "configHash": "b446bf83",
+  "lockfileHash": "c2a1e6a9",
+  "browserHash": "1bf419a0",
   "optimized": {
-    "@angular/common": {
-      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
-      "file": "@angular_common.js",
-      "fileHash": "9ca3c31f",
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "66fbf6d5",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "482250c9",
+      "fileHash": "59b60071",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "828df1cb",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "2b93862e",
+      "fileHash": "0f60def9",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "2d519c38",
       "needsInterop": false
     },
     "@angular/service-worker": {
       "src": "../../../../../../node_modules/@angular/service-worker/fesm2022/service-worker.mjs",
       "file": "@angular_service-worker.js",
-      "fileHash": "54fec30f",
+      "fileHash": "316164cb",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-XR3CWG3D": {
-      "file": "chunk-XR3CWG3D.js"
+    "chunk-YACXFGFE": {
+      "file": "chunk-YACXFGFE.js"
     },
-    "chunk-TX4VRTPG": {
-      "file": "chunk-TX4VRTPG.js"
+    "chunk-A5ZGVMB4": {
+      "file": "chunk-A5ZGVMB4.js"
+    },
+    "chunk-NRTK7L6F": {
+      "file": "chunk-NRTK7L6F.js"
+    },
+    "chunk-DLAEV6VH": {
+      "file": "chunk-DLAEV6VH.js"
     }
   }
 }

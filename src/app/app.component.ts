@@ -6,16 +6,15 @@ import { AppModule } from "./app.module";
 import { bootstrapApplication } from "@angular/platform-browser";
 
 @Component({
-  standalone: true,
+  standalone:false,
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  imports: [CommonModule, ItemComponent, AppModule],
 
 })
 export class AppComponent {
   componentTitle = "My To Do List";
-
+  
   filter: "all" | "active" | "done" = "all";
 
   allItems = [

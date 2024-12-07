@@ -1,6 +1,6 @@
 import {
   isPlatformBrowser
-} from "./chunk-XR3CWG3D.js";
+} from "./chunk-NRTK7L6F.js";
 import {
   APP_INITIALIZER,
   ApplicationRef,
@@ -33,7 +33,7 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-TX4VRTPG.js";
+} from "./chunk-DLAEV6VH.js";
 
 // node_modules/@angular/service-worker/fesm2022/service-worker.mjs
 var ERR_SW_NOT_SUPPORTED = "Service workers are disabled or not supported by this browser";
